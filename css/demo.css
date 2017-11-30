@@ -1,0 +1,73 @@
+/* Demo */
+
+.slickModal.testimonials {
+    color: #333;
+    text-align: center;
+}
+.slickModal.testimonials ul {
+    display: inline-block;
+    width: 100%;
+    height: 66px;
+    position: relative;
+    margin-top: 20px;
+}
+.slickModal.testimonials li {
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.slickModal.testimonials li img {
+    position: absolute;
+    top: -94px;
+    left: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+}
+.slickModal.testimonials li .title {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+.slickModal.testimonials li p {
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.8;
+}
+.slickModal.testimonials .dots {
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    width: 520px;
+}
+.slickModal.testimonials .dot {
+    float: left;
+    content: "";
+    height: 5px;
+    background: #eee;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.slickModal.testimonials .dot:hover,
+.slickModal.testimonials .dot.active {
+    background: #ba6a6a;
+}
+
+@media screen and (max-width: 520px) {
+    .slickModal.testimonials ul {
+        height: 90px;
+    }
+    .slickModal.testimonials .dots {
+        bottom: -20px;
+    }
+}
+
+.cta{
+font-weight: 700;
+font-size: 12px;
+color: #b64c4c;
+}
